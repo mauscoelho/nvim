@@ -1,10 +1,10 @@
 return {
-  { "loctvl842/monokai-pro.nvim" },
-  -- { "ellisonleao/gruvbox.nvim" },
+  { "dracula/vim", name = "dracula" },
+  { "catppuccin/nvim", name = "catppuccin" },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "monokai-pro",
+      colorscheme = "catppuccin",
     },
   },
 }
